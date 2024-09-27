@@ -1,0 +1,78 @@
+.card {
+    flex-direction: column;
+    border-radius: 10px;
+    width: 282px;
+    display: flex;
+    position: relative;
+}
+
+.card__image {
+    width: 282px;
+    height: 282px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.card__description {
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+}
+
+.card__description-list {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 900;
+    margin: 0;
+    align-items: center;
+    line-height: 29px;
+    font-size: 24px;
+    font-family: "Inter" sans-serif;
+}
+
+.card__like-button {
+    background: transparent url(../images/heart-logo.svg) center no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    width: 21px;
+    height: 18px;
+}
+
+.card__like-button_is-active {
+    background: url(../images/Union.png) center no-repeat;
+    /* background-color: pink; */
+}
+
+.card__like-button:hover {
+    opacity: 0.5;
+}
+
+.card__trash-button {
+    background: center no-repeat;
+    position: absolute;
+    border: none;
+    transition: 0.8s;
+    top: 18px;
+    right: 16px;
+    cursor: pointer;
+
+
+
+
+}
+
+.card__trash-button :hover {
+    opacity: 0.5;
+}

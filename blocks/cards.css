@@ -1,0 +1,18 @@
+.cards {
+    padding-top: 30.25px;
+
+}
+
+.cards__list {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 282px);
+    gap: 17px 17px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+
+
+
+
+}
